@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>        
+        <title>Jimmy's Diner</title>
+        
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="index.css">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <p id="title">Jimmy's Diner</p>
+                <p id="subtitle">The best burgers and pizzas in town</p>
+            </header>
+
+            <main>                
+                <section id="section-menu">
+                    <p id="title-menu">Menu</p>
+                    <!-- Different menu items -->
+                </section>
+                <section id="section-order">
+                    <!-- Order summary and payment -->
+                </section>
+                <section id="section-thanks">
+                    <!-- Thanks and evaluation after payment is done -->
+                </section>
+            </main>
+
+            <!-- Payment modal that shows up once the user presses the "Complete order" button -->
+            <div id="modal-payment" class="hidden">
+                <p id="heading-modal">Enter card details</p>
+                <form>
+                    <input type="text" id="form-name" name="form-name" placeholder ="Enter your name" required><br>
+                    <input type="text" id="form-card" name="form-card" placeholder ="Enter your card number" required><br>
+                    <input type="text" id="form-cvv" name="form-cvv" placeholder ="Enter your CVV" required>
+                    <button id="button-pay" class="button-green">Pay</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
