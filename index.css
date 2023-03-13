@@ -1,4 +1,5 @@
 /* General setup */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,23 +8,35 @@
 
 #container {
     width: 600px;
-    /* min-height: 1161px; */
     margin: 25px auto;
     box-shadow: 0 0 5px gray;
 }
 
+/* Typography */
+
+body  {
+    font-family: 'Smythe', cursive;
+    font-weight: 400;
+    color: black;
+}
+
+.button-green,
+.button-remove-item,
+#heading-modal,
+input  {    
+    font-family: 'Verdana';
+}
+
 /* Header */
+
 header {
     background: url("images/banner.jpg");
     width: 600px;
     height: 167px;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    padding: 46px 0 0 46px;    
-    font-family: 'Smythe', cursive;
-    font-style: normal;
-    font-weight: 400;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding: 46px 0 0 46px; 
     color: whitesmoke;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
@@ -35,17 +48,13 @@ header {
 }
 
 #subtitle {
-    font-size: 22.4216px;
+    font-size: 22.5px;
     line-height: 14px;
 }
 
 /* Menu Section */
 
 #title-menu {
-    text-align: center;    
-    font-family: 'Smythe', cursive;
-    font-style: normal;
-    font-weight: 400;
     font-size: 42px;
     line-height: 25px;
     margin-top: 25px;
@@ -65,21 +74,18 @@ header {
 
 .div-menu-text {
     margin: 0 auto 0 30px;
-    font-family: 'Smythe', cursive;
-    font-style: normal;
-    font-weight: 400;
 }
 
 .image-menu {
     height: 100px;
     width: 100px;
+    object-fit: cover;
     border-radius: 100%;
 }
 
 .heading-menu-item {
     font-size: 28px;
     line-height: 17px;
-    color: black;
 }
 
 .subheading-ingredients {
@@ -88,13 +94,9 @@ header {
     color: #8B8B8B;
 }
 
-.price {    
-    font-family: 'Smythe', cursive;
-    font-style: normal;
-    font-weight: 400;
+.price {
     font-size: 30px;
     line-height: 24px;
-    color: #000000;
     margin: 5px 20px 0 0;
 }
 
@@ -113,6 +115,7 @@ header {
 }
 
 /* Order summary */
+
 #section-order {
     margin: 0 46px;
 }
@@ -120,12 +123,8 @@ header {
 #title-order {
     text-align: center;
     padding-top: 20px;
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
     font-size: 28px;
     line-height: 17px;
-    color: #000000;
 }
 
 ul {
@@ -140,13 +139,9 @@ li {
     padding: 5px 10px;
 }
 
-.heading-order-item {    
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
+.heading-order-item {
     font-size: 28px;
     line-height: 17px;
-    color: #000000;
 }
 
 .button-remove-item {
@@ -154,8 +149,6 @@ li {
     margin-right: auto;
     background: inherit;
     border: none;
-    font-family: 'Verdana';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
@@ -164,12 +157,8 @@ li {
 }
 
 .price-order-item {
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #000000;
 }
 
 #div-price {
@@ -179,22 +168,14 @@ li {
 }
 
 #heading-price {
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
     font-size: 28px;
     line-height: 24px;
-    color: #0E0E0E;
 }
 
 #label-price {
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     text-align: right;
-    color: #0E0E0E;
 }
 
 #button-complete-order {    
@@ -216,19 +197,14 @@ li {
 }
 
 #heading-modal {
-    font-family: 'Verdana';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    color: #000000;
     text-align: center;
     padding: 10px 0 30px 0;
 }
 
 input {
-    font-family: 'Verdana';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 31px;
@@ -247,12 +223,8 @@ input:last-child {
 #section-thanks {
     text-align: center;
     padding: 30px 0;
-    font-family: 'Smythe';
-    font-style: normal;
-    font-weight: 400;
     font-size: 28px;
     line-height: 17px;
-    color: #000000;
 }
 
 #eval {
@@ -269,8 +241,6 @@ input:last-child {
     height: 60px;
     width: 100%;
     background: #16DB99;
-    font-family: 'Verdana';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
