@@ -3,7 +3,6 @@ const menuSection = document.getElementById("section-menu")
 const orderSection = document.getElementById("section-order")
 const thanksSection = document.getElementById("section-thanks")
 const paymentModal = document.getElementById("modal-payment")
-let orderList = []
 let evalIcons = []
 
 // Listen for click events
